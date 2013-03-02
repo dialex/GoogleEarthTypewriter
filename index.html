@@ -12,6 +12,7 @@
             body {padding-top: 10px;}
         </style>
         <link href="./styles/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="./styles/css/custom.css" rel="stylesheet">
     
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -46,14 +47,14 @@
             
             <div class="row-fluid">
                 <div class="span12" align="center" id="error">
-                    <br/> <!-- space -->
+                    <br/> <!-- room for errors -->
                 </div>
             </div>
                     
             <!-- le canvas -->
             <div class="row-fluid">
                 <div class="span12" align="center" id="canvas">
-                    <br /><!-- starts empty -->
+                    <div class="map"><br /></div><!-- room for maps -->
                 </div>
             </div>
             
@@ -63,144 +64,9 @@
 
         <script src="./styles/js/jquery.js"></script>
         <script src="./styles/js/bootstrap.js"></script>
+        <script src="./styles/js/custom.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?&sensor=false"></script>
-        
-        <script type="text/javascript">
-            
-            function clear() {
-                $("#canvas").html("");
-            }
-            
-            $("#input-txt").on('keypress', function(e) {
-                
-                // identifies key pressed, case-insensitive
-                var newKey = e.which;                
-                if (newKey >= 97 && newKey <= 122) {
-                    newKey -= 32;
-                }
-                letter = String.fromCharCode(newKey);
-                
-                // if it's a letter, chooses which image/map to display                
-                if(letter.match(/^[-\sa-zA-Z]+$/)) {
-                    switch(letter) {
-                        case "A":
-                            $("#canvas").append(type_A() + " ");
-                            break;
-                        case "B":
-                            $("#canvas").append(type_B() + " ");
-                            break;
-                        case "C":
-                            $("#canvas").append(type_C() + " ");
-                            break;
-                        case "D":
-                            $("#canvas").append("D");
-                            break;
-                        case "E":
-                            $("#canvas").append("D");
-                            break;
-                        case "F":
-                            $("#canvas").append("D");
-                            break;
-                        case "G":
-                            $("#canvas").append("D");
-                            break;
-                        case "H":
-                            $("#canvas").append("D");
-                            break;
-                        case "I":
-                            $("#canvas").append("D");
-                            break;
-                        case "J":
-                            $("#canvas").append("D");
-                            break;
-                        case "K":
-                            $("#canvas").append("D");
-                            break;
-                        case "L":
-                            $("#canvas").append("D");
-                            break;
-                        case "M":
-                            $("#canvas").append("D");
-                            break;
-                        case "N":
-                            $("#canvas").append("D");
-                            break;
-                        case "O":
-                            $("#canvas").append("D");
-                            break;
-                        case "P":
-                            $("#canvas").append("D");
-                            break;
-                        case "Q":
-                            $("#canvas").append("D");
-                            break;
-                        case "R":
-                            $("#canvas").append("D");
-                            break;
-                        case "S":
-                            $("#canvas").append("D");
-                            break;
-                        case "T":
-                            $("#canvas").append("D");
-                            break;
-                        case "U":
-                            $("#canvas").append("D");
-                            break;
-                        case "V":
-                            $("#canvas").append("D");
-                            break;
-                        case "W":
-                            $("#canvas").append("D");
-                            break;
-                        case "X":
-                            $("#canvas").append("D");
-                            break;
-                        case "Y":
-                            $("#canvas").append("D");
-                            break;
-                        case "Y":
-                            $("#canvas").append("D");
-                            break;
-                        default:
-                            $("#error").html('<br/><div class="alert alert-error"><b>Letters only please!</b> You\'re not that almighty!</div>');
-                            break;
-                    }
-                }
-                else {
-                    $("#error").html('<br/><div class="alert alert-error"><b>Letters only please!</b> You\'re not that almighty!</div>');
-                }   
-            });
-            
-            
-            function mapaD() {
-                var mapOptions = {
-                    center : new google.maps.LatLng(-38.313486, 145.14051),
-                    zoom : 18,
-                    disableDefaultUI: true, //disables buttons
-                    featureType: "landscape",
-                    height: 200,
-                    width: 250
-                };
-                var map = new google.maps.Map(document.getElementById("error"), mapOptions);
-            }            
-            
-            
-            //code snippets
-            function type_A() {
-                return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-36.889918,145.180035&amp;spn=0.041188,0.051498&amp;z=13&amp;output=embed"></iframe>';
-            };
-            function type_B() {
-                return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.742519,147.652903&amp;spn=0.00509,0.006437&amp;z=16&amp;output=embed"></iframe>';
-            };
-            function type_C() {
-                return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
-            };
-            function type_D() {
-                return 'D';
-            };
-        
-        </script>
-        
+
         <!-- Google Analytics 
         <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
