@@ -1,11 +1,15 @@
+var newline_sound = document.getElementById("newline-sound");
+var keystroke_sound = document.getElementById("keystroke-sound");
+
 $("#newline-btn").on('click', function() {
     $("#canvas").empty();
     $("#input-txt").val("");
+    newline_sound.play();
 });
 
 $("#input-txt").on('keypress', function(e) {
 
-    playKeystrokeSound();
+    keystroke_sound.play();
     
     // identifies key pressed, case-insensitive
     var newKey = e.which;
@@ -184,11 +188,6 @@ function map_Z() {
     return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.81481,144.996614&amp;spn=0.001059,0.001068&amp;z=18&amp;output=embed"></iframe>';
 };
 
-/* sound player */
-function playNewlineSound() {
-    var soundfile = "./styles/sound/typewriter-newline.mp3";
-    document.getElementById("newline-btn").innerHTML += "<embed id='newline-sound' src=\"" + soundfile + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
-}
 function playKeystrokeSound() {
     var soundfile = "./styles/sound/typewriter-keystroke.mp3";
     document.getElementById("input-txt").innerHTML = "<embed src=\"" + soundfile + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";

@@ -35,9 +35,16 @@
         <title>Google Earth Typewriter</title>
         <meta name="description" content="Write your message using the Earth landscape.">
     </head>
-    <body>        
-        <div class="container-fluid">
-            
+    <body>
+        <!-- le audio files -->
+        <audio id="newline-sound" style="display:none">
+            <source src="./styles/sound/typewriter-newline.mp3"></source>
+        </audio>
+        <audio id="keystroke-sound" style="display:none">
+            <source src="./styles/sound/typewriter-keystroke.mp3"></source>
+        </audio>
+        
+        <div class="container-fluid">            
             <!-- le header -->
             <div class="row-fluid">
                 <div class="span12" align="center">
@@ -56,7 +63,7 @@
             <div class="row-fluid">
                 <div class="span12" align="center" id="form">
                     <input id="input-txt" class="input-xxlarge monospaced" type="text" placeholder="Start typing, almighty one!">
-                    &nbsp;<a id="newline-btn" class="btn btn-primary btn-large" onclick='playNewlineSound()'><i class="icon-circle-arrow-left icon-white"></i>&nbsp;<b>new line</b></a>                    
+                    &nbsp;<a id="newline-btn" class="btn btn-primary btn-large"><i class="icon-circle-arrow-left icon-white"></i>&nbsp;<b>new line</b></a>                    
                 </div>
             </div>
             
@@ -75,8 +82,16 @@
             
             <hr>
             <footer>
-                <p>&copy; Diogo Nunes 2013 #DevFestPortugal</p>
-                
+                <div class="row-fluid">
+                    <div class="span12" align="center">
+                        <h4 class="slabserif">Technologies used:</h4>
+                        <div class="row-fluid">
+                            <div class="span12" align="center">
+                                Twitter Bootstrap
+                            </div>
+                        <p>&copy; Diogo Nunes 2013 #DevFestPortugal</p>
+                    </div>
+                </div>
             </footer>
         </div>
 
