@@ -11,7 +11,7 @@
         <link href="./styles/css/bootstrap.css" rel="stylesheet">
         <style>
             body {
-                padding-top: 10px;
+                padding-top: 5px;
                 font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
             }
             .typewriter {
@@ -41,7 +41,7 @@
             <!-- le header -->
             <div class="row-fluid">
                 <div class="span12" align="center">
-                    <h1 class="typewriter">Google Earth Typewriter</h1>
+                    <h1 class="typewriter" id="fith1">Google Earth Typewriter</h1>
                     <h3>Write a message using the Earth as your canvas.</h3>
                 </div>
             </div>
@@ -82,7 +82,10 @@
         <script src="./styles/js/jquery.js"></script>
         <script src="./styles/js/bootstrap.js"></script>
         <script src="./styles/js/custom.js"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?&sensor=false"></script>
+        <script src="./styles/js/jquery.fittext.js"></script>
+        <script type="text/javascript">
+            $("#fith1").fitText(1.3);
+        </script>
 
         <!-- Google Analytics 
         <script type="text/javascript">
