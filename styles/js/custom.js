@@ -159,35 +159,35 @@ function map_O() {
     return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.819921,144.983311&amp;spn=0.004238,0.00427&amp;z=16&amp;output=embed"></iframe>';
 };
 function map_P() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.663576,142.560933&amp;spn=0.004247,0.00427&amp;z=16&amp;output=embed"></iframe>';
 };
 function map_Q() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-36.051042,144.192982&amp;spn=0.017348,0.01708&amp;z=14&amp;output=embed"></iframe>';
 };
 function map_R() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ie=UTF8&amp;ll=-36.636434,142.958822&amp;spn=0.008609,0.00854&amp;z=15&amp;output=embed"></iframe>';
 };
 function map_S() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-38.207702,145.387788&amp;spn=0.004215,0.00427&amp;z=16&amp;output=embed"></iframe>';
 };
 function map_T() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-38.045523,142.325585&amp;spn=0.002112,0.002135&amp;z=17&amp;output=embed"></iframe>';
 };
 function map_U() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.739109,145.511599&amp;spn=0.004242,0.00427&amp;z=16&amp;output=embed"></iframe>';
 };
 function map_V() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.842106,144.999007&amp;spn=0.001059,0.001068&amp;z=18&amp;output=embed"></iframe>';
 };
 function map_W() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.897318,144.745849&amp;spn=0.002117,0.002135&amp;z=17&amp;output=embed"></iframe>';
 };
 function map_X() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-34.259628,142.05657&amp;spn=0.017735,0.01708&amp;z=14&amp;output=embed"></iframe>';
 };
 function map_Y() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    $("#error").html('<br/><div class="alert alert-info"><b>You got me!</b> I can\'t give you an \'Y\'</div>');
 };
 function map_Z() {
-    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.838233,145.031875&amp;spn=0.001271,0.001609&amp;z=17&amp;output=embed"></iframe>';
+    return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.81481,144.996614&amp;spn=0.001059,0.001068&amp;z=18&amp;output=embed"></iframe>';
 };
