@@ -1,9 +1,12 @@
-function clear() {
-    $("#canvas").html("");
-}
+$("#newline-btn").on('click', function() {
+    $("#canvas").empty();
+    $("#input-txt").val("");
+});
 
 $("#input-txt").on('keypress', function(e) {
 
+    playKeystrokeSound();
+    
     // identifies key pressed, case-insensitive
     var newKey = e.which;
     if (newKey >= 97 && newKey <= 122) {
@@ -101,17 +104,6 @@ $("#input-txt").on('keypress', function(e) {
     }
 });
 
-function mapaD() {
-    var mapOptions = {
-        center : new google.maps.LatLng(-38.313486, 145.14051),
-        zoom : 18,
-        disableDefaultUI : true, //disables buttons
-        height : 200,
-        width : 250
-    };
-    var map = new google.maps.Map(document.getElementById("error"), mapOptions);
-}
-
 //code snippets
 function map_A() {
     return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-36.889918,145.180035&amp;spn=0.041188,0.051498&amp;z=13&amp;output=embed"></iframe>';
@@ -191,3 +183,26 @@ function map_Y() {
 function map_Z() {
     return '<iframe width="200" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.au/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=206410170293146069606.000459cc1b231fda86744&amp;t=k&amp;ll=-37.81481,144.996614&amp;spn=0.001059,0.001068&amp;z=18&amp;output=embed"></iframe>';
 };
+
+/* sound player */
+function playNewlineSound() {
+    var soundfile = "./styles/sound/typewriter-newline.mp3";
+    document.getElementById("newline-btn").innerHTML += "<embed id='newline-sound' src=\"" + soundfile + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+}
+function playKeystrokeSound() {
+    var soundfile = "./styles/sound/typewriter-keystroke.mp3";
+    document.getElementById("input-txt").innerHTML = "<embed src=\"" + soundfile + "\" hidden=\"true\" autostart=\"true\" loop=\"false\" />";
+}
+
+
+/* I GIVE UP!!! this code should generate a map using Google Maps API, removing the controls
+function map_XX() {
+    var mapOptions = {
+        center : new google.maps.LatLng(-38.313486, 145.14051),
+        zoom : 18,
+        disableDefaultUI : true, //disables buttons
+        height : 200,
+        width : 250
+    };
+    var map = new google.maps.Map(document.getElementById("error"), mapOptions);
+} */
