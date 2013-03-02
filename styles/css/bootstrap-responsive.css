@@ -785,7 +785,10 @@
     margin-left: -20px;
   }
   .container-fluid {
-    padding: 0;
+    /* padding: 0; */ /* original */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1600px; /* or 950px */
   }
   .dl-horizontal dt {
     float: none;

@@ -7,12 +7,26 @@
         <link rel="shortcut icon" href="/styles/img/favicon.ico">
     
         <!-- Le styles -->
+        <link href="./styles/css/fonts.css" rel="stylesheet">
         <link href="./styles/css/bootstrap.css" rel="stylesheet">
         <style>
-            body {padding-top: 10px;}
+            body {
+                padding-top: 10px;
+                font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+            }
+            .typewriter {
+                font: 6.0em 'SpecialEliteRegular', 'BitterBold', Georgia, serif;
+            }
+            .slabserif {
+                font-family: 2.0em 'BitterBold', Georgia, serif;
+            }
+            .monospaced {
+                font-family: 'Courier New', 'Monaco', Courier, monospace;
+            }
         </style>
         <link href="./styles/css/bootstrap-responsive.css" rel="stylesheet">
         <link href="./styles/css/custom.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -22,13 +36,13 @@
         <meta name="description" content="Write your message using the Earth landscape.">
     </head>
     <body>        
-        <div class="container">
+        <div class="container-fluid">
             
             <!-- le header -->
             <div class="row-fluid">
                 <div class="span12" align="center">
-                    <h1>Google Earth Typewriter</h1>
-                    <p><em>Write a message using the Earth as your canvas.</em></p>
+                    <h1 class="typewriter">Google Earth Typewriter</h1>
+                    <h3>Write a message using the Earth as your canvas.</h3>
                 </div>
             </div>
             
@@ -41,7 +55,7 @@
             <!-- le input form -->
             <div class="row-fluid">
                 <div class="span12" align="center" id="form">
-                    <input id="input-txt" class="input-xxlarge" type="text" placeholder="Start typing, almighty one!">&nbsp;<a id="write-btn" class="btn btn-primary btn-large"><i class="icon-circle-arrow-left icon-white"></i>&nbsp;<b>new line</b></a>                    
+                    <input id="input-txt" class="input-xxlarge monospaced" type="text" placeholder="Start typing, almighty one!">&nbsp;<a id="write-btn" class="btn btn-primary btn-large"><i class="icon-circle-arrow-left icon-white"></i>&nbsp;<b>new line</b></a>                    
                 </div>
             </div>
             
