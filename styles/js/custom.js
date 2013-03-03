@@ -99,6 +99,9 @@ $("#input-txt").on('keypress', function(e) {
             case "Z":
                 $("#canvas").append(map_Z() + " ");
                 break;
+            case " ":
+                $("#canvas").append("&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+                break;
             default:
                 $("#error").html('<br/><div class="alert alert-error"><b>Letters only please!</b> You\'re not that almighty!</div>');
                 break;
