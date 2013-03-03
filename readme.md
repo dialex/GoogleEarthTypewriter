@@ -24,5 +24,4 @@ The website is responsive although, for legibility reasons, the maps/letters dis
 * Albuquerque Figueira: for helping me with Google Maps API
 
 ##License
-*Google Earth Typewriter  Copyright (C) 2013  Diogo Nunes*
-*This program is free software under the terms of the GNU General Public License version 3 and it comes with ABSOLUTELY NO WARRANTY.*
+*Google Earth Typewriter  Copyright (C) 2013  Diogo Nunes. This program is free software under the terms of the GNU General Public License version 3 and it comes with ABSOLUTELY NO WARRANTY.*
