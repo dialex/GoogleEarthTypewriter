@@ -2,7 +2,7 @@
 
 *Write a message using the Earth as your canvas.*
 
-##Why / Context
+##Why
 
 During the first ever [Google DevFest Portugal](https://plus.google.com/events/ci9mfrnaa4orhffgb18eobhogfo) we had to come up with an idea (using Google technology), implement it in 24h and present it. I decided to use Google Maps API and some responsive web technology present during the event.
 
@@ -24,5 +24,5 @@ The website is responsive although, for legibility reasons, the maps/letters dis
 * Albuquerque Figueira: for helping me with Google Maps API
 
 ##License
-Google Earth Typewriter  Copyright (C) 2013  Diogo Nunes
-This program is free software under the terms of the GNU General Public License version 3 and it comes with ABSOLUTELY NO WARRANTY.
+*Google Earth Typewriter  Copyright (C) 2013  Diogo Nunes*
+*This program is free software under the terms of the GNU General Public License version 3 and it comes with ABSOLUTELY NO WARRANTY.*
