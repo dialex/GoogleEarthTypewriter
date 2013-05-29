@@ -1,4 +1,4 @@
-﻿# Google Earth Typowriter
+﻿# Google Earth Typewriter
 
 *Write a message using the Earth as your canvas.*
 
